@@ -1,2 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<h1>"Hello there!"</h1>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Slice'd - The Gourment Pizzeria</title>
+  <meta name="description" content="Slice'd is an authentic gourmet Pizzeria with Globally Inspired flavours at an exquisite rooftop setting in hyderabad.">
+  <meta content="A rooftop pizerria with dine-in, delivery or take away options for vegetarian and non vegetarian to enjoy authentic pizza, pasta, sides, bruschetta, stuffed garlic sticks, chicken wings, cheesecakes, brownies, mojitos, coffee, frappe and mocktails," name="keywords">
+
+  <!-- Favicons -->
+  <link href="images/favicon.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  
+    <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
+	
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <script>history.scrollRestoration = "manual"</script>
+<!--  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+</head>
+<body class="page-index" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="images/logo.png" alt="Sliced logo" style="max-height:60px">
+        <!--<h1 class="d-flex align-items-center">Nova</h1>-->
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+		  <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact Us</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-5" style="background: rgba(0 0 0 / 50%);
+    padding: 20px;">
+		<div class="eyebrow-heading" data-aos="fade-up" data-aos-delay="100"><span style="color: #faebd7">Dine-in | Take away | Delivery</span></div> <br />
+          <h1 data-aos="fade-up" style="color:#deb887">Enjoy Authentic Gourmet Pizzas</h1>
+          <blockquote data-aos="fade-up" data-aos-delay="100">
+            <p style="color: #faebd7">Taste the globally Inspired flavors at an exquisite rooftop setting!</p>
+          </blockquote>
+          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+            <a href="https://www.zomato.com/hyderabad/sliced-the-gourmet-pizzeria-banjara-hills/book" class="btn-book-a-table">Book a Table</a>
+			<a href="https://www.zomato.com/hyderabad/sliced-the-gourmet-pizzeria-banjara-hills" class="btn-order-online">Order Online</a>
+<!--            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+    -->      </div>
+
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+  
+  <section id="menu" class="menu aos-init aos-animate" data-aos="fade-up" style="background-image:url('images/pizza-bg.jpg')">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+
+        <div class="section-header" data-aos="fade-up">
+          <h2>Our Menu</h2>
+        </div>
+
+        <ul class="nav nav-tabs d-flex justify-content-center " data-aos="fade-up" data-aos-delay="200" role="tablist">
+
+          <li class="nav-item" role="presentation">
+            <a class="nav-link show active" data-bs-toggle="tab" data-bs-target="#menu-all" aria-selected="true" role="tab">
+              <h4 style="font-weight:bold">All</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-starters" aria-selected="false" role="tab" tabindex="-1">
+              <h4 style="font-weight:bold">Starters</h4>
+            </a><!-- End tab nav item -->
+			
+			<li class="nav-item" role="presentation">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-pizza" aria-selected="false" role="tab" tabindex="-1">
+              <h4 style="font-weight:bold">Pizzas</h4>
+            </a><!-- End tab nav item -->
+
+          </li><li class="nav-item" role="presentation">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-pasta" aria-selected="false" role="tab" tabindex="-1">
+              <h4 style="font-weight:bold">Pastas</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-dessert-beverages" aria-selected="false" role="tab" tabindex="-1">
+              <h4 style="font-weight:bold">Desserts & Beverages</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+        </ul>
+
+        <div class="tab-content aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+
+          <div class="tab-pane fade active show" id="menu-all" role="tabpanel">
+
+<br /><br />
+            <div class="row gy-5">
+			
+			
+              <div class="col-lg-2 menu-item">
+                <a href="images/menu/3.png" class="glightbox"><img src="images/menu/3.png" class="menu-img img-fluid" alt="starter image"></a>
+               
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-2 menu-item">
+                <a href="images/menu/4.png" class="glightbox"><img src="images/menu/4.png" class="menu-img img-fluid" alt=""></a>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-2 menu-item">
+                <a href="images/menu/5.png" class="glightbox"><img src="images/menu/5.png" class="menu-img img-fluid" alt=""></a>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-2 menu-item">
+                <a href="images/menu/6.png" class="glightbox"><img src="images/menu/6.png" class="menu-img img-fluid" alt=""></a>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-2 menu-item">
+                <a href="images/menu/7.png" class="glightbox"><img src="images/menu/7.png" class="menu-img img-fluid" alt=""></a>
+               
+              </div><!-- Menu Item -->
+			  
+			  
+			  
+			  <div class="row">
+			  
+			  <!-- Menu Item -->
+			  
+			  <div class="col-lg-2 menu-item">
+                <a href="images/menu/9.png" class="glightbox"><img src="images/menu/9.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->
+			  
+			  <div class="col-lg-2 menu-item">
+                <a href="images/menu/10.png" class="glightbox"><img src="images/menu/10.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->
+			  
+			  <div class="col-lg-2 menu-item">
+                <a href="images/menu/11.png" class="glightbox"><img src="images/menu/11.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->
+			  <div class="col-lg-2 menu-item">
+                <a href="images/menu/12.png" class="glightbox"><img src="images/menu/12.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->
+				
+			<div class="col-lg-2 menu-item">
+                <a href="images/menu/13.png" class="glightbox"><img src="images/menu/13.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->
+			
+			<div class="col-lg-2 menu-item">
+                <a href="images/menu/14.png" class="glightbox"><img src="images/menu/14.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->
+			
+
+			<div class="col-lg-2 menu-item">
+                <a href="images/menu/17.png" class="glightbox"><img src="images/menu/17.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->
+
+			<div class="col-lg-2 menu-item">
+                <a href="images/menu/18.png" class="glightbox"><img src="images/menu/18.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->
+			  
+			 <div class="col-lg-2 menu-item">
+                <a href="images/menu/19.png" class="glightbox"><img src="images/menu/19.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->
+			 
+			  <div class="col-lg-2 menu-item">
+                <a href="images/menu/20.png" class="glightbox"><img src="images/menu/20.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->
+			  
+			  <div class="col-lg-2 menu-item">
+                <a href="images/menu/21.png" class="glightbox"><img src="images/menu/21.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->
+
+				<div class="col-lg-2 menu-item">
+                <a href="images/menu/22.png" class="glightbox"><img src="images/menu/22.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->			  
+
+				<div class="col-lg-2 menu-item">
+                <a href="images/menu/23.png" class="glightbox"><img src="images/menu/23.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->			  
+
+				<div class="col-lg-2 menu-item">
+                <a href="images/menu/24.png" class="glightbox"><img src="images/menu/24.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->			 
+
+				<div class="col-lg-2 menu-item">
+                <a href="images/menu/25.png" class="glightbox"><img src="images/menu/25.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->			  
+
+            </div>
+			</div>
+          </div><!-- End all Menu Content -->
+
+          <div class="tab-pane fade" id="menu-starters" role="tabpanel">
+
+         
+<br /><br />
+
+            <div class="row gy-5">
+			
+			<div class="col-lg-4 menu-item">
+                <a href="images/menu/3.png" class="glightbox"><img src="images/menu/3.png" class="menu-img img-fluid" alt="starter image"></a>
+                <!-- 
+				<h4>Pizza</h4>
+                <p class="ingredients">
+                  Lorem, deren, trataro, filede, nerada
+                </p>
+                <p class="price">
+                  $5.95
+                </p>
+				-->
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="images/menu/4.png" class="glightbox"><img src="images/menu/4.png" class="menu-img img-fluid" alt=""></a>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="images/menu/5.png" class="glightbox"><img src="images/menu/5.png" class="menu-img img-fluid" alt=""></a>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="images/menu/6.png" class="glightbox"><img src="images/menu/6.png" class="menu-img img-fluid" alt=""></a>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="images/menu/7.png" class="glightbox"><img src="images/menu/7.png" class="menu-img img-fluid" alt=""></a>
+               
+              </div><!-- Menu Item -->
+			  
+
+            </div>
+          </div><!-- End starter Menu Content -->
+		  
+		  <div class="tab-pane fade" id="menu-pizza" role="tabpanel">
+<!--
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Pizza</h3>
+            </div>
+-->
+<br /> <br />
+            <div class="row gy-5">
+			<div class="col-lg-4 menu-item">
+                <a href="images/menu/9.png" class="glightbox"><img src="images/menu/9.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->
+			  
+			  <div class="col-lg-4 menu-item">
+                <a href="images/menu/10.png" class="glightbox"><img src="images/menu/10.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->
+			  
+			  <div class="col-lg-4 menu-item">
+                <a href="images/menu/11.png" class="glightbox"><img src="images/menu/11.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->
+			  <div class="col-lg-4 menu-item">
+                <a href="images/menu/12.png" class="glightbox"><img src="images/menu/12.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->
+				
+			<div class="col-lg-4 menu-item">
+                <a href="images/menu/13.png" class="glightbox"><img src="images/menu/13.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->
+			
+			<div class="col-lg-4 menu-item">
+                <a href="images/menu/14.png" class="glightbox"><img src="images/menu/14.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->
+				
+          </div>
+		  </div>
+		  <!-- End pizza Menu Content -->
+
+
+          <div class="tab-pane fade" id="menu-pasta" role="tabpanel">
+
+<br /><br />
+            <div class="row gy-5">
+			
+			<div class="col-lg-4 menu-item">
+                <a href="images/menu/17.png" class="glightbox"><img src="images/menu/17.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->
+
+			<div class="col-lg-4 menu-item">
+                <a href="images/menu/18.png" class="glightbox"><img src="images/menu/18.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->
+			  
+			 <div class="col-lg-4 menu-item">
+                <a href="images/menu/19.png" class="glightbox"><img src="images/menu/19.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- End Lunch Menu Content -->
+
+          <div class="tab-pane fade" id="menu-dessert-beverages" role="tabpanel">
+
+<!--            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Dessert & Beverages</h3>
+            </div>
+-->
+<br /><br />
+            <div class="row gy-5">
+			
+			<div class="col-lg-4 menu-item">
+                <a href="images/menu/20.png" class="glightbox"><img src="images/menu/20.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->
+			  
+			  <div class="col-lg-4 menu-item">
+                <a href="images/menu/21.png" class="glightbox"><img src="images/menu/21.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->			  
+			  
+			  <div class="col-lg-4 menu-item">
+                <a href="images/menu/22.png" class="glightbox"><img src="images/menu/22.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->
+
+				<div class="col-lg-4 menu-item">
+                <a href="images/menu/23.png" class="glightbox"><img src="images/menu/23.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->			  
+
+				<div class="col-lg-4 menu-item">
+                <a href="images/menu/24.png" class="glightbox"><img src="images/menu/24.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->			 
+
+				<div class="col-lg-4 menu-item">
+                <a href="images/menu/25.png" class="glightbox"><img src="images/menu/25.png" class="menu-img img-fluid" alt=""></a>
+              
+              </div><!-- Menu Item -->		
+
+
+            </div>
+          </div><!-- End Dinner Menu Content -->
+
+        </div>
+		</div>
+		<br />
+		<br />
+<div class="container">
+<div class="row" center>
+<h3 style="font-family:Roboto; font-weight:500px; position:relative; text-align:center;">Get mouth watering dishes at your doorstep!</h3>
+<br />
+<div class="d-flex" data-aos="fade-up" data-aos-delay="200" style="text-align:center; justify-content: center;">
+			<a href="https://www.zomato.com/hyderabad/sliced-the-gourmet-pizzeria-banjara-hills" class="btn-order-online">Order Online Now</a>
+     </div>
+</div>
+</div>
+
+
+      </div>
+	  
+	  
+	 
+    </section>
+  
+
+
+  <!-- ======= About Us Section ======= -->
+    <section id="about" class="services-list" style="background-image:url('images/pizzeria activites.jpg')">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>About Us</h2>
+
+        </div>
+
+        <div class="row gy-3">
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div>
+              <h4 class="title"><span class="stretched-link">Our Story</span></h4>
+              <p class="description">Born out of a passion for great food, exceptional hospitality, and the desire to create an oasis of taste and elegance in the bustling city, Slice'd Pizzeria was founded with a simple yet ambitious goal: to redefine the way you experience pizza. From the very beginning, we've set out to elevate this beloved Italian classic to new heights.</p>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            
+            <div>
+              <h4 class="title"><span class="stretched-link">Our Commitment to You</span></h4>
+              <p class="description">What sets Slice'd Pizzeria apart is our commitment to craftsmanship and quality. Our culinary team, guided by years of experience and a deep appreciation for fresh, locally-sourced ingredients, crafts each pizza with precision and love. Our hand-tossed dough, signature sauces, and carefully selected toppings come together to create a symphony of flavors that will leave your taste buds dancing.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            
+            <div>
+			<h4 class="title"><span class="stretched-link">The Slice'd Experience</span></h4>
+            <p class="description">But it's not just about the food. At Slice'd, we believe that dining is an experience to be savored. That's why we've created a rooftop oasis that transports you to another world. Our rooftop dining area offers a breathtaking panoramic view of the city, making it the perfect setting for a romantic dinner, a celebration with friends, or a casual evening under the stars.</p>
+
+            </div>
+          </div><!-- End Service Item -->
+		  </div>
+		  <div class="row">
+		 
+		  <div class="col-lg-12 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+         
+            <div class="row" style="position:relative; text-align:center; justify-content: center;
+    display: flex;">
+            <h4 class="title"><span class="stretched-link">Join Us at Slice'd</span></h4>
+			<p class="description">Whether you're a pizza connoisseur looking for the finest slices in Hyderabad or seeking a unique dining experience that combines delectable cuisine with stunning views, Slice'd Pizzeria invites you to join us on this gastronomic journey. We're more than a pizzeria; we're your destination for exceptional dining in the heart of Banjara Hills.</p>              
+            
+			</div>
+			</div>
+			
+          </div><!-- End Service Item -->
+		  
+
+		</div>
+		<div class="d-flex" data-aos="fade-up" data-aos-delay="200" style="position:relative; text-align:center; justify-content: center;
+    display: flex;">
+            <a href="https://www.zomato.com/hyderabad/sliced-the-gourmet-pizzeria-banjara-hills/book" class="btn-order-online">Book a Table Now</a>
+			</div>
+		</div>
+
+      <!-- </div> -->
+    </section><!-- End of About Us Section -->
+
+
+<section id="gallery" class="why-us" style="background: #FFF4E0;">
+<div class="container" data-aos="fade-up">
+<div class="section-header">
+<h2>Gallery</h2>
+</div>
+        
+</div>
+<div class="container gallery-container" style="background-color:#ffeeae;">   
+
+    <div class="tz-gallery">
+        <div class="row">
+
+            <div class="col-sm-12 col-md-4">
+                <a class="lightbox" href="images/gallery/Bruschettas_1.jpg">
+                    <img src="images/gallery/Bruschettas_1.jpg" alt="Image of Bruschettas">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/gallery/Bruschettas_7.jpg">
+                    <img src="images/gallery/Bruschettas_7.jpg" alt="Image of Bruschettas">
+                </a>
+            </div>
+			<div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/gallery/WINGS_9.jpg">
+                   <img src="images/gallery/WINGS_9.jpg" alt="Image of WINGS">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/gallery/DSC05905.jpg">
+                   <img src="images/gallery/DSC05905.jpg" alt="Image of Bruschettas">
+                </a>
+            </div> 
+            
+			<div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/gallery/WINGS_6.jpg">
+                   <img src="images/gallery/WINGS_6.jpg" alt="Image of WINGS">
+                </a>
+            </div>
+			<div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/gallery/Sliced-13.jpg">
+                   <img src="images/gallery/Sliced-13.jpg" alt="Image of Sliced pasta ready to serve">
+                </a>
+            </div>
+			<div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/gallery/Sliced-33.jpg">
+                   <img src="images/gallery/Sliced-33.jpg" alt="Image of enjoying cofee while reading a book at Sliced">
+                </a>
+            </div>
+			<div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/gallery/Sliced-22.jpg">
+                   <img src="images/gallery/Sliced-22.jpg" alt="Friends hangout at sliced">
+                </a>
+            </div>
+			
+			<div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/gallery/PeriPeriGoat,GHF.jpg">
+                   <img src="images/gallery/PeriPeriGoat,GHF.jpg" alt="Image of Peri Peri Goat,GHF">
+                </a>
+            </div>
+
+			<div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/gallery/DSC05408.jpg">
+                   <img src="images/gallery/DSC05408.jpg" alt="Image of pizerria seating">
+                </a>
+            </div>
+			<div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/gallery/DSC05917.jpg">
+                   <img src="images/gallery/DSC05917.jpg" alt="Image of Sliced">
+                </a>
+            </div>
+			<div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/gallery/DSC05423.jpg">
+                   <img src="images/gallery/DSC05423.jpg" alt="Image of seating facing forest">
+                </a>
+            </div>
+			<div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/gallery/Garlic Prawns_3.jpg">
+                   <img src="images/gallery/Garlic Prawns_3.jpg" alt="Image of Garlic Prawns">
+                </a>
+            </div>
+			<div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/gallery/Styling_Jackfruit.jpg">
+                   <img src="images/gallery/Styling_Jackfruit.jpg" alt="Styling Jackfruit Pizzas">
+                </a>
+            </div>
+			
+			<div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/gallery/DSC05921.jpg">
+                    <img src="images/gallery/DSC05921.jpg" alt="Image of Slice'd pizerria ambience">
+                </a>
+            </div>
+			<div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/gallery/Sliced-29.jpg">
+                   <img src="images/gallery/Sliced-29.jpg" alt="Image of friends gossiping at sliced">
+                </a>
+            </div>
+			
+			<div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/gallery/Sliced-34.jpg">
+                   <img src="images/gallery/Sliced-34.jpg" alt="Image of group of people with table full of food">
+                </a>
+            </div>
+			
+			<div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/gallery/DSC05417.jpg">
+                    <img src="images/gallery/DSC05417.jpg" alt="Image of Slice'd pizerria ambience">
+                </a>
+            </div>
+			<div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="images/gallery/DSC05910.jpg">
+                    <img src="images/gallery/DSC05910.jpg" alt="Image of Slice'd pizerria ambience">
+                </a>
+            </div>
+			
+			<div class="col-sm-12 col-md-8">
+                <a class="lightbox" href="images/gallery/DSC05412.jpg">
+                    <img src="images/gallery/DSC05412.jpg" alt="Image of Bruschettas">
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+ 
+    <!-- ======= Call To Action Section ======= -->
+    <section id="testimonials" class="call-to-action">
+	<div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h3>Our Customers say</h3>
+            <br />
+          </div>
+        </div>
+		
+      <!-- <div class="container justify-content-center" data-aos="fade-up"> -->
+	  <div class="row g-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" style="display:flex;align-items: center;">
+
+          <div class="col-lg-6 col-xl-5 text-center align-items-center">
+    <h3>Visit Slice'd Today</h3>
+            <p>Come and experience the Slice'd difference today. We can't wait to welcome you to our rooftop haven and share our passion for pizza, hospitality, and creating unforgettable memories.</p>
+            <div><a class="btn-book-a-table" href="https://www.zomato.com/hyderabad/sliced-the-gourmet-pizzeria-banjara-hills/book">Book a Table Now</a></div></div>
+	  
+	  <div class="col-lg-6 col-xl-7 slides  position-relative" style="width: 50%;">
+
+            <div class="slides-1 swiper swiper-initialized swiper-horizontal swiper-pointer-events">
+              <div class="swiper-wrapper" id="swiper-wrapper-69ce6a5cae68e6f5" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-1113px, 0px, 0px);"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="0" role="group" aria-label="1 / 4">
+                  <div class="item">
+                    <a href="images/testimonials/1.png" class="glightbox"><img src="images/testimonials/1.png" class="menu-img img-fluid" alt=""></a>
+                  </div>
+                </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1" role="group" aria-label="2 / 4">
+                  <div class="item">
+                    <a href="images/testimonials/2.png" class="glightbox"><img src="images/testimonials/2.png" class="menu-img img-fluid" alt=""></a>
+                  </div>
+                </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="2" role="group" aria-label="3 / 4">
+                  <div class="item">
+                    <a href="images/testimonials/3.png" class="glightbox"><img src="images/testimonials/3.png" class="menu-img img-fluid" alt=""></a>
+                  </div>
+                </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-active" data-swiper-slide-index="3" role="group" aria-label="4 / 4">
+                  <div class="item">
+                    <a href="images/testimonials/4.png" class="glightbox"><img src="images/testimonials/4.png" class="menu-img img-fluid" alt=""></a>
+                  </div>
+                </div>
+<!--------------------------------------------------------------------------->
+                <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="0" role="group" aria-label="1 / 4">
+                  <div class="item">
+                    <a href="images/testimonials/1.png" class="glightbox"><img src="images/testimonials/1.png" class="menu-img img-fluid" alt=""></a>
+                  </div>
+                </div><!-- End slide item -->
+
+                <div class="swiper-slide" data-swiper-slide-index="1" role="group" aria-label="2 / 4">
+                  <div class="item">
+                   <a href="images/testimonials/2.png" class="glightbox"><img src="images/testimonials/2.png" class="menu-img img-fluid" alt=""></a>
+                  </div>
+                </div><!-- End slide item -->
+
+                <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="2" role="group" aria-label="3 / 4">
+                  <div class="item">
+                    <a href="images/testimonials/3.png" class="glightbox"><img src="images/testimonials/3.png" class="menu-img img-fluid" alt=""></a>
+                  </div>
+                </div><!-- End slide item -->
+
+                <div class="swiper-slide swiper-slide-duplicate-active" data-swiper-slide-index="3" role="group" aria-label="4 / 4">
+                  <div class="item">
+                    <a href="images/testimonials/4.png" class="glightbox"><img src="images/testimonials/4.png" class="menu-img img-fluid" alt=""></a>
+                  </div>
+                </div><!-- End slide item -->
+<!------------------------------------------------------------------------------------------------>
+              <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="0" role="group" aria-label="1 / 4">
+                  <div class="item">
+                    <a href="images/testimonials/1.png" class="glightbox"><img src="images/testimonials/1.png" class="menu-img img-fluid" alt=""></a>
+                  </div>
+                </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1" role="group" aria-label="2 / 4">
+                  <div class="item">
+                    <a href="images/testimonials/2.png" class="glightbox"><img src="images/testimonials/2.png" class="menu-img img-fluid" alt=""></a>
+                  </div>
+                </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" role="group" aria-label="3 / 4">
+                  <div class="item">
+                    <a href="images/testimonials/3.png" class="glightbox"><img src="images/testimonials/3.png" class="menu-img img-fluid" alt=""></a>
+                  </div>
+                </div>
+				<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3" role="group" aria-label="4 / 4">
+                  <div class="item">
+                 <a href="images/testimonials/4.png" class="glightbox"><img src="images/testimonials/4.png" class="menu-img img-fluid" alt=""></a>
+                  </div>
+                </div></div>
+              <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 4" aria-current="true"></span></div>
+            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+            <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-69ce6a5cae68e6f5"></div>
+            <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-69ce6a5cae68e6f5"></div>
+          </div>
+		  </div>
+    </section><!-- End Call To Action Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  
+  <footer id="footer" class="footer">
+    <div class="footer-content">
+	<div id="contact" class="section-header" data-aos="fade-up" data-aos-delay="200">
+<h2>Contact Us</h2>
+</div>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span>Sliced</span>
+            </a>
+            <h4>Dine-in | Take away | Delivery</h4>
+            <h5>Sliced open hours: 12pm to 9pm everyday</h5>
+			<div class="row">
+			  <p>
+			Slice’d – The Gourmet Pizzeria<br>
+			Park View Estate, Rooftop-5th floor,<br>
+			02, Road, Banjara Hills, 
+			<br>Hyderabad, Telangana
+			
+            </p>
+			  </div>
+			  <div class="row">
+            <div class="d-flex  mt-3">
+              <ul style="list-style:none;">
+			  <li><h6><a href="" style="color:black"><i class="bi bi-whatsapp" style="color:#60D669"></i>&nbsp; &nbsp; chat: </strong>+91 90663 94394</a><h6></li>
+			  <br />
+			  <li><h6><a href="" style="color:black"><i class="bi bi-telephone" style="color:blue"></i>&nbsp; &nbsp; Call us at</strong> +91 90663 94394</i></a></h6></li>
+              </ul>
+			  </div>
+			  </div>
+			  
+	
+	<br />
+			<div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+				<a href="https://www.zomato.com/hyderabad/sliced-the-gourmet-pizzeria-banjara-hills/book" class="btn-book-a-table">Book a Table</a>
+				<a href="https://www.zomato.com/hyderabad/sliced-the-gourmet-pizzeria-banjara-hills" class="btn-order-online">Order on Zomato</a>
+			</div>
+			
+			
+			  <br /><br />
+			  <div class="row" data-aos="fade-up" data-aos-delay="200">
+			  <h6>Our Partners</h6>
+			  <div class="col-2 d-flex">
+			  <a href="https://www.swiggy.com/restaurants/sliced-the-gourmet-pizzeria-banjara-hills-hyderabad-452361" ><img src="images/partners/swiggy.png" class="img-fluid" alt="Swiggy partner"></a>
+			  </div>
+			  <div class="col-2 d-flex">
+			  <a href="https://www.zomato.com/hyderabad/sliced-the-gourmet-pizzeria-banjara-hills" ><img src="images/partners/zomato.png" class="img-fluid" alt="Zomato partner"></a>
+			  </div>
+			  <div class="col-2 d-flex">
+			  <a href="https://www.dineout.co.in/hyderabad/sliced-the-gourmet-pizzeria-banjara-hills-central-east-hyderabad-106720" ><img src="images/partners/dineout.png" class="img-fluid" alt="Dineout partner"></a>
+			  </div>
+			  <div class="col-2 d-flex">
+			  <a href="https://www.eazydiner.com/hyderabad/sliced-the-gourmet-pizzeria-banjara-hills-hyderabad-684099" ><img src="images/partners/eazydiner.png" class="img-fluid" alt="Eaztdiner partner"></a>
+			  </div>
+			  </div>
+          
+		  </div>
+
+
+          <div class="col-lg-6 col-md-12 footer-contact text-center text-md-start">
+            <h4>Reach Us</h4>
+			<div class="container-fluid">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.7256312636305!2d78.41936677429108!3d17.42494988346862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9191a49c16b5%3A0x7a614af7cd29dd3a!2sSlice&#39;d%20-%20The%20Gourmet%20Pizzeria!5e0!3m2!1sen!2sin!4v1693928365421!5m2!1sen!2sin" height="450" style="border:0; width: -webkit-fill-available;" allowfullscreen="" loading="lazy " referrerpolicy="no-referrer-when-downgrade" ></iframe>
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Slice'd - The Gourment Pizerria</span></strong>. All Rights Reserved
+        </div>
+		<div class="social-links d-flex  mt-3" style="align-items: center; justify-content: center;">
+              <a href="#" class="twitter" style="padding: 10px;"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook" style="padding: 10px;"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram" style="padding: 10px;"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin" style="padding: 10px;"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer --><!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<!--  <script src="assets/vendor/php-email-form/validate.js"></script>-->
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+</body>
+</html>
+
