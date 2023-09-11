@@ -1326,8 +1326,11 @@ section {
 --------------------------------------------------------------*/
 .testimonials .testimonial-item {
   box-sizing: content-box;
-  padding: 30px;
+  padding: 10px;
+  margin: 10px;
+ /* padding: 30px;
   margin: 40px 30px;
+*/
   box-shadow: 0px 0 20px rgba(27, 47, 69, 0.1);
   background: #fff;
   min-height: 320px;
@@ -2325,6 +2328,9 @@ section {
 
 .tz-gallery .lightbox img {
     width: 100%;
+	height:100%;
+	object-fit:cover;
+	overflow:hidden;
     border-radius: 0;
     position: relative;
 }
@@ -2503,3 +2509,62 @@ section {
   font-size: 13px;
   color: var(--color-secondary);
 }
+
+
+
+/*######################################*/
+/*
+ .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+#custCarousel .carousel-indicators {
+    position: static;
+    margin-top:20px;
+}
+
+#custCarousel .carousel-indicators > li {
+  width:100px;
+}
+
+ #custCarousel .carousel-indicators li img {
+    display: block;
+    opacity: 0.5;
+ }
+
+  #custCarousel .carousel-indicators li.active img {
+    opacity: 1;
+	
+  }
+
+  #custCarousel .carousel-indicators li:hover img {
+    opacity: 0.75;
+  }
+
+  .carousel-item img{
+
+    width:80%;
+  }
+  */
+/*  .carousel-indicators-numbers {
+    li {
+      text-indent: 0;
+      margin: 0 2px;
+      width: 30px;
+      height: 30px;
+      border: none;
+      border-radius: 100%;
+      line-height: 30px;
+      color: #fff;
+      background-color: #999;
+      transition: all 0.25s ease;
+      &.active, &:hover {
+        margin: 0 2px;
+        width: 30px;
+        height: 30px;
+        background-color: #337ab7;        
+      }
+    }
+}
+*/
